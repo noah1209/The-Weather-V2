@@ -6,10 +6,6 @@ import datetime
 from PIL import Image
 import json
 from geopy.geocoders import Nominatim
-import time
-from pprint import pprint
-import raw
-import decimal
 
 geo_request_url = 'https://get.geojs.io/v1/ip/geo.json'
 geo_data = requests.get(geo_request_url).json()
